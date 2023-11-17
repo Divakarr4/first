@@ -24,12 +24,21 @@
 // additems.style.color='green';
 // additems.style.fontWeight='bold';
 
-let items = document.getElementsByClassName('list-group-item');
+// let items = document.getElementsByClassName('list-group-item');
 
-items[2].style.backgroundColor='green';
+// items[2].style.backgroundColor='green';
 
-for(var i=0; i < items.length;i++){
-     items[i].style.fontWeight='bold';
+// for(var i=0; i < items.length;i++){
+//      items[i].style.fontWeight='bold';
+// }
+
+
+let li = document.getElementsByTagName('li');
+
+li[4].style.backgroundColor='green';
+
+for(var i=0; i < li.length;i++){
+     li[i].style.fontWeight='bold';
 }
 
 
