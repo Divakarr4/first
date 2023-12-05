@@ -33,13 +33,22 @@
 // }
 
 
-let li = document.getElementsByTagName('li');
+// let li = document.getElementsByTagName('li');
 
-li[4].style.backgroundColor='green';
+// for(var i=0; i < li.length;i++){
+//      li[i].style.fontWeight='bold';
+// }
 
-for(var i=0; i < li.length;i++){
-     li[i].style.fontWeight='bold';
+var secondItem = document.querySelector('.list-group-item:nth-child(2)');
+
+secondItem.style.color='green';
+
+var odd =document.querySelectorAll('li:nth-child(odd)');
+
+for(var i=0;i<odd.length;i++){
+     odd[i].style.backgroundColor ='green';
 }
+
 
 
 
